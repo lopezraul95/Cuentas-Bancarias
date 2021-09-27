@@ -3,7 +3,7 @@ package cuentasBancarias;
 public class AppCuenta {
 
 	public static void main(String[] args) {
-	    
+		
 	    Cuenta cuentaOrigen = new Cuenta();
 	    cuentaOrigen.depositarDinero(1000);
 	    System.out.println(cuentaOrigen.getSaldo()); // 10000
@@ -16,5 +16,4 @@ public class AppCuenta {
 	    System.out.println(cuentaDestino.getSaldo()); // 550
 
 	}
-
 }
